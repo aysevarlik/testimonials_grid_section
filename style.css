@@ -1,0 +1,102 @@
+html{
+    font-size: 13px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+body{
+    font-family: "Barlow Semi Condensed";
+    background-color: hsl(210, 46%, 95%);
+}
+.container_1{
+    z-index: -1;
+    width: 90rem;
+    height: 50rem;
+    margin-top: 4rem;
+}
+.container_2{
+    height: 25rem;
+}
+svg{
+    position: absolute;
+    z-index: 0;
+    margin-left: 20rem;
+}
+.box_2,
+.box_3,
+.box_4,
+.box_5{
+    padding: 2.5rem;
+}
+img{
+    width: 3rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: 1.5rem;
+}
+.img_daniel{
+    margin: 2rem;
+    border: 0.2rem solid hsl(263, 58%, 79%);
+}
+#daniel{
+    margin-top: 2rem;
+    margin-left: 6.5rem;
+}
+#daniel_2{
+    margin-left: 6.5rem;
+    margin-top: 3.5rem;
+}
+#daniel_title{
+    margin: 6rem 2.5rem 0rem 2.5rem;
+    padding-right: 2.5rem;
+}
+#daniel_p{
+    margin-top: 12rem;
+    margin-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+.img_patrick{
+    border: 0.2rem solid hsl(263, 55%, 52%);
+}
+.box_1 p{
+    position: absolute;
+    z-index: 1;
+    width: 43rem;
+}
+.box_1{
+    padding-right: 2.5rem;
+    color: white;
+    background-color: hsl(263, 55%, 52%);
+    height: 23rem;
+    border-radius: 0.6rem;
+}
+.box_2{
+    color: white;
+    background-color: hsl(217, 19%, 35%);
+    height: 23rem;
+    border-radius: 0.6rem;
+}
+.box_3{
+    color: hsl(217, 19%, 35%);
+    background-color: white;
+    height: 23rem;
+    border-radius: 0.6rem;
+}
+.box_4{
+    color: white;
+    background-color: hsl(219, 29%, 14%);
+    height: 23rem;
+    border-radius: 0.6rem;
+}
+.box_5{
+    color: hsl(217, 19%, 35%);
+    background-color: white;
+    height: 48rem;
+    border-radius: 0.6rem;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
